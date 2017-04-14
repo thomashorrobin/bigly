@@ -1,0 +1,23 @@
+{
+  "name": "bigly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "yarn test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomashorrobin/bigly.git"
+  },
+  "author": "Thomas Horrobin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thomashorrobin/bigly/issues"
+  },
+  "homepage": "https://github.com/thomashorrobin/bigly#readme",
+  "dependencies": {
+    "ws": "^2.2.3"
+  }
+}
