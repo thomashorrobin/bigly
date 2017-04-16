@@ -1,6 +1,9 @@
-const connection = new WebSocket('ws://127.0.0.1:8081/');
+const address = 'ws://127.0.0.1:8081/';
+const connection = new WebSocket(address);
 const mainInput = document.getElementById('user-input');
 const commandHistory = document.getElementById('command-history');
+
+addLine(`connected to ${address} at ${moment().format()}`);
 
 connection.onmessage = evt => { 
         const data = JSON.parse(evt.data);
